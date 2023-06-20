@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  #container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #search-container {
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    clear: both;
+  }
+  
+  #search-button {
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 24px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  #header {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  #header a {
+    margin-left: 10px;
+    color: #555;
+    text-decoration: none;
+  }
+  
+  #header a:hover {
+    text-decoration: underline;
+  }
+  
+  #search-input {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+  }
+  
+  #search-button {
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  #search-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .advanced-search-container input[type="text" i]  {
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+  }
+
+  .advanced-search-container {
+  margin-top: 20px;
+  }
+  
+  .advanced-search-container label {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    height: 50px;
+    font-size: 17px;
+    vertical-align: middle;
+  }
+  
+  .advanced-search-container input[type="text"] {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+    margin: 10px 10px;
+  }
+  
+  .advanced-search-container input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .advanced-search-container input[type="submit"]:hover {
+    background-color: #3367d6;
+  }
+
+  #advanced-search-button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border: none;
+    margin: 10px;
+  }
+
+  #advanced-search-button input[type="submit"] :hover{
+    cursor: pointer;
+    color: cornsilk;
+  }
+  
+  .im-feeling-lucky {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .im-feeling-lucky a {
+    color: #555;
+    text-decoration: none;
+  }
+  
+  .im-feeling-lucky a:hover {
+    text-decoration: underline;
+  }
+  
